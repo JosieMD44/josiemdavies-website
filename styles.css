@@ -1,0 +1,155 @@
+:root{
+    --colour-primary: #363A52;
+    --colour-dark: #111630;
+    --colour-darker:#181C30;
+    --colour-light:#363D6B;
+    --colour-BLUE:#303A78;
+    --colour-white:#FFFF; 
+    --colour-lighter:#d8d9e4; 
+    --colour-fake: #221E1D;
+    --colour-real: #27292a;
+    --colour-try: #111630;
+    --colour-black:#0d0d0d;
+
+
+
+
+
+
+}
+
+
+html{
+    box-sizing: border-box;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    
+}
+
+*,
+ *::before,
+ *::after{
+    box-sizing: inherit;
+}
+
+body{ 
+    margin: 1;
+   background-image:url("Background1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:1510px 1400px;
+   font-optical-sizing: auto;
+   font-weight: lighter;
+  
+}
+
+.container{
+    text-align:center;
+    padding: 20rem 0px 0px 0px ;
+}
+
+.block{
+    display:inline-block;
+    width: 400px;
+    height: 800px;
+    background-color: var(--colour-try);
+    
+}
+
+
+header {
+    background: var(--colour-try);
+    padding:16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    border-radius:1px;
+    font-size:1.25rem; /* 20px */
+    
+    
+    
+    
+    top: 16px;
+    left: 24px;
+    right: 24px;
+    z-index: 1;
+
+    a {
+        color:var(--colour-lighter);
+
+    }
+
+
+}
+
+
+
+h1{
+   color:var(--colour-lighter);
+   padding: 15
+    
+} 
+
+
+article{
+    
+color:var(--colour-lighter);
+
+}
+
+footer {
+    background: var(--colour-try);
+    width:100%;
+    margin: 2px;
+    padding:0.1rem 1.5rem;
+    border-radius: 5% 5%;
+    font-size:1rem; /* 20px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    bottom: 1rem;
+    left: 0rem;
+    right: 0rem;
+    z-index: 1;
+
+    a {
+        color:var(--colour-white);
+
+    }
+}
+
+.image-container {
+  width: 200px;
+  height: 300px;
+  border: 1px solid rgb(187, 41, 41);
+  margin-bottom: 25px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+}
+
+#about {
+    background:var(--colour-try);
+    
+}
+
+.link-button {
+    
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    color: var(--colour-dark);
+
+
+
+
+}
+
+.link-button:hover {
+    background:var(--colour-black);
+    color: var(--colour-fake);
+
+}
